@@ -1,5 +1,4 @@
 import Head from "next/head";
-import { TableProvider } from "../providers/indexContext";
 import MyTable from "../components/MyTable";
 
 const Home = () => {
@@ -12,9 +11,7 @@ const Home = () => {
       </Head>
 
       <main>
-        <TableProvider>
-          <MyTable />
-        </TableProvider>
+        <MyTable />
       </main>
     </div>
   );
