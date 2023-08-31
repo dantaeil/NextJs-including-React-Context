@@ -9,7 +9,13 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.7",
+    "@mui/material": "^5.14.7",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.1",
+    "next": "^12.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   }
